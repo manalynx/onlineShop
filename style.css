@@ -137,6 +137,9 @@ h4{
 .col-4 p{
     font-size: 14px;
 }
+.rating .bi{
+    color: #fdcc0d;
+}
 .col-4:hover{
     transform: translateY(-5px);
 }
