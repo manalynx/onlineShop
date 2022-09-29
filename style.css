@@ -140,7 +140,7 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
-
+/*-- offer--*/
 .offer{
     background: radial-gradient(#fff,#f8bbea);
     margin-top: 80px;
