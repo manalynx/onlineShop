@@ -37,7 +37,7 @@
     <div class="small-container single-product">
         <div class="row">
             <div class="col-2">
-                <img src="images/product-details-1.jpg" width="100%" id="product-img">
+                <img src="images/product-details-1.jpg" width="100%" id="productImg">
 
                 <div class="small-img-row">
                     <div class="small-img-col">
@@ -52,11 +52,9 @@
                     <div class="small-img-col">
                         <img src="images/product-details-1.jpg" width="100%" class="small-img">
                     </div>
-                </div>
-
-                
+                </div> 
             </div>
-            <div class="col2">
+            <div class="col-2">
                 <p>Home / Blouse</p>
                 <h1>White Blouse with blue lines</h1>
                 <h4>$37.00</h4>
@@ -77,6 +75,14 @@
                     pure cotton.Stylish design with short
                      sleeves.Comfortable fabric and casual look</p>
             </div>
+        </div>
+    </div>
+    <!--title-->
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p> View More</p>
         </div>
     </div>
 <div class="small-container">
@@ -191,5 +197,30 @@
             }
 
         </script>
+
+<!--js for product details gallery-->
+
+<script>
+    var productImg = document.getElementById("productImg");
+    var smallImg = document.getElementByClassName("small-img");
+
+        smallImg[0].onclick = function()
+        {
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function()
+        {
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function()
+        {
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function()
+        {
+            productImg.src = smallImg[3].src;
+        }
+
+</script>    
 </body>
 </html>
