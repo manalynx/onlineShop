@@ -358,6 +358,10 @@ select:focus{
 input:focus{
     outline: none;
 }
+.single-product .bi{
+    color: #f8bbea;
+    margin-left: 10px;
+}
 
 
 
