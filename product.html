@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinkies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/Logo-1.png">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Yourself<br> A New Style </h1>
+                <p>Every woman deserves to be treated as a princess.Women <br>
+                    are the main source of all the beauty around the world</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+
+            </div>
+            <div class="col-2">
+                <img src="images/hero.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- featured categories-->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/model-1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/model-2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/model-3.jpg">
+            </div>
+        </div>
+   
+    </div>
+
+</div>
+<!--featured products--> 
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-1.jpg">
+            <h4>Black&White Dress</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+            </div>
+            <p>$30.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.jpg">
+            <h4>Yellow Short Dress</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+            </div>
+            <p>$48.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg">
+            <h4>Pink Skirt</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$28.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg">
+            <h4>Printed Blouse</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+            </div>
+            <p>$19.99</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>  
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg">
+            <h4>Pink Blouse</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+            </div>
+            <p>$15.90</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.jpg">
+            <h4>Jeans Jacket</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+            <p>$66.95</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.jpg">
+            <h4>Jeans Trouser</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$54.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.jpg">
+            <h4>White Printed Dress</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+            </div>
+            <p>$37.99</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Red Blouse</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$22.90</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>Black Dress</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$47.95</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>Brown Blouse</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>$39.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Yellow Blouse</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <p>$32.99</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-13.jpg">
+                    <h4>Dark Brown Blouse</h4>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$17.90</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-14.jpg">
+                    <h4>Red&Pink Dress</h4>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$72.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-15.jpg">
+                    <h4>Black Leather Jacket</h4>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p>$66.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-16.jpg">
+                    <h4>Yellow T-shirt</h4>
+                    <div class="rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                    </div>
+                    <p>$16.99</p>
+                </div>
+            </div>
+        </div>
+        <!--Offer-->
+        <div class="offer">
+            <div class="small-container">
+              <div class="row">
+                <div class="col-2">
+                    <img src="images/exlusive.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p> Only Available On Pinkies</p>
+                    <h1>High-cut Nike Jordans</h1>
+                    <small>
+                        Air Jordan is a line of basketball shoes 
+                        and athletic clothing produced by American corporation Nike.
+                        Initially designed to appeal to the female crowd, Pink Jordans 
+                        are some of the most iconic sneakers from the partnership.
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+              </div>  
+            </div>
+        </div>
+<!--testimonial-->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="bi bi-quote"></i>
+                        <p>My experience with pinkies was  great .
+                            check out process was smooth, for sure I 
+                            will repeat buying.</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <img src="images/rating-1.jpg">
+                            <h3>Sara Brown</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="bi bi-quote"></i>
+                        <p>It's not my first time with Pinkies, 
+                            I like the provided wide range of choices.
+                            Their collection is always up to date.</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <img src="images/rating-2.jpg">
+                            <h3>Analees keeten</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="bi bi-quote"></i>
+                        <p>My overall experience was sufficient to repeat my purchase .
+                            I'd recommend if the customer service can be improved.</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <img src="images/rating-3.jpg">
+                            <h3>Alis Beek</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--brands-->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-2.jpg">
+                    </div> 
+                    <div class="col-5">
+                        <img src="images/logo-3.png">
+                    </div> 
+                    <div class="col-5">
+                        <img src="images/logo-4.png">
+                    </div> 
+                    <div class="col-5">
+                        <img src="images/logo-5.png">
+                    </div> 
+                    <div class="col-5">
+                        <img src="images/logo-6.jpg">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-7.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--footer-->
+        <div class="footer">
+           <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Our App is avaolable for Android and IOS</p>
+                <div class="app-logo">
+                    <img src="images/logo-app.png">
+                    <img src="images/logo-play.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="images/logo-f.png">
+                <p>We aim to sustainably make the pleasure of
+                    shopping accessible any and every where
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Promo Codes</li>
+                    <li>Return Policy</li>
+                    <li>Join Pinkies</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+           </div>
+           <hr>
+           <p class="copyright">Copyright 2022 - Limkokwing University of Creative Technology </p>
+        </div>
+<!--js for toggle menu-->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+               if ( MenuItems.style.maxHeight == "0px")
+               {
+                MenuItems.style.maxHeight = "200px";
+               }
+               else{
+                MenuItems.style.maxHeight = "0px";
+
+               }
+            }
+
+        </script>
+</body>
+</html>
