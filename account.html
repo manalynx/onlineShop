@@ -15,18 +15,18 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="images/Logo-1.png">
+                <a href="index.html"><img src="images/Logo-1.png"></a>
             </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
+                    <li><a href="account.html">Account</a></li>
                 </ul>
             </nav>
-            <img src="images/cart.png" width="30px" height="30px">
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
     </div>
@@ -41,17 +41,18 @@
                 <div class="col-2">
                    <div class="form-container">
                         <div class="form-btn">
-                            <span>Login</span>
-                            <span>Sign Up</span>
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Sign Up</span>
+                            <hr id="Indicator">
                         </div>
-                        <form >
+                        <form id="LoginForm">
                             <input type="text" placeholder="Username">
                             <input type="password" placeholder="password">
                             <button type="submit" class="btn">Login</button>
                             <a href="">Forgot Password</a>
                         </form>
 
-                        <form >
+                        <form id="RegForm">
                             <input type="text" placeholder="Username">
                             <input type="email" placeholder="Email">
                             <input type="password" placeholder="password">
@@ -119,5 +120,23 @@
             }
 
         </script>   
+<!--js for toggle form-->
+        <script>
+            var LoginForm = document.getElementById("LoginForm");
+            var RegForm = document.getElementById("RegForm");
+            var Indicator = document.getElementById("Indicator");
+
+            function register(){
+                RegForm.style.transform = "translatex(0px)";
+                LoginForm.style.transform = "translatex(0px)";
+                Indicator.style.transform = "translatex(100px)";
+            }
+
+            function login(){
+                RegForm.style.transform = "translatex(300px)";
+                LoginForm.style.transform = "translatex(300px)";
+                Indicator.style.transform = "translatex(0px)";
+            }
+        </script>
 </body>
 </html>
